@@ -1,0 +1,44 @@
+.container-fluid {
+  width: 500px;
+}
+
+.back {
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.calculator {
+  margin: auto;
+  background: gray;
+  border-radius: 20px;
+  padding: 20px;
+  border-bottom: outset 10px black;
+}
+
+.display {
+  text-align: right;
+  margin: 10px auto 20px auto;
+  height: 70px;
+  width: 100%;
+  background: black;
+  border-radius: 5px;
+}
+
+.number {
+  color: black;
+  padding: 20px 20px;
+  width: 100%;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+
+.number:hover {
+  color: white;
+  background: black;
+}
+
+#add {
+  height: 200%;
+  padding: 58px 0px;
+}
